@@ -10,7 +10,7 @@ import {
 } from 'react-share';
 
 const Blog = () => {
-    const host = process.env.REACT_APP_SERVER_URL;
+    const host = process.env.REACT_APP_SERVER_URL || "http://localhost:9000";
     const blogId = useParams();
     const [paragraphs, setParagraphs] = useState([]);
     const [blog, setBlog] = useState([]);

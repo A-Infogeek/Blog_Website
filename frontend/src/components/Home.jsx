@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import BlogSnippet from './BlogSnippet'
 
 const Home = () => {
-    const host = process.env.REACT_APP_SERVER_URL ;
+    const host = process.env.REACT_APP_SERVER_URL || "http://localhost:9000";
 
     const [blogs, setBlogs] = useState([]);
 
