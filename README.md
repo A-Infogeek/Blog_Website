@@ -5,7 +5,8 @@ Screenshot of Project:
 
 
 Installation 🛠️
-Clone the project- git clone git@github.com:A-Infogeek/task-management.git
+
+Clone the project- git clone git@github.com:A-Infogeek/Blog_Website.git
 
 Navigate to the project directory cd your-project
 
